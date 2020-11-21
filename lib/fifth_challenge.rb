@@ -22,9 +22,12 @@ def fifth_challenge
       ]
    }
   }
+#   require_relative 'spec_helper'
+  require_relative '../lib/bonus.rb'
 
-  #code your solution here:
-
+      epic_tragedy[:montague][:hero][:status].to eq("dead")
+      epic_tragedy[:capulet][:heroine][:status].to eq("dead")
+ 
 
   #Don't touch the following line! The method must return our newly modified epic tragedy hash
   epic_tragedy
